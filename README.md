@@ -12,6 +12,6 @@
 - https://api.slack.com/apps
 - create app
 - go to App-Level Tokens
-- https://api.slack.com/apps/<APP-ID>/oauth 
+- https://api.slack.com/apps/APP-ID/oauth 
 - scroll to User Token Scopes
 - add `users.profile:write`
