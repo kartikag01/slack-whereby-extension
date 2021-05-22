@@ -3,7 +3,7 @@
 
 ## Steps to use this
 - Repalce MY_SLACK_TOKEN with your token 
-- Repalce MY_FAV_ROMMS with your room links
+- Repalce MY_FAV_ROOMS with your room links
 - npm run build
 - load folder `build` in unpack extension under `chrome://extensions/`
 

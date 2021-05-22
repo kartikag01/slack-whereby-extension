@@ -4,7 +4,7 @@ import "./App.css";
 const MY_SLACK_TOKEN =
   "xoxp-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 
-const MY_FAV_ROMMS = [
+const MY_FAV_ROOMS = [
   "https://whereby.com/my-room",
   "https://whereby.com/my-room-2",
 ];
@@ -30,7 +30,7 @@ function App() {
 
   function onClick(e, index) {
     e.preventDefault();
-    const roomUrl = MY_FAV_ROMMS[index];
+    const roomUrl = MY_FAV_ROOMS[index];
     const userName = roomUrl.substring(20);
 
     makeApiCall({ userName })
@@ -57,7 +57,7 @@ function App() {
       <header className="App-header">
         <p>Click on room</p>
         <div className="mainSection">
-          {MY_FAV_ROMMS.map((_, index) => {
+          {MY_FAV_ROOMS.map((_, index) => {
             return (
               <a
                 className="App-link"
